@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: #fff;
+}
+
+/* ícones redes sociais */
+.social_icons {
+    float: right;
+}
+
+.social_icons a {
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+}
+
+.btn_facebook:hover {
+    color: #3b5998;
+}
+
+.btn_twitter:hover {
+    color: #54a4d6;
+}
+
+.btn_google:hover {
+    color: #d73d32;
+}
